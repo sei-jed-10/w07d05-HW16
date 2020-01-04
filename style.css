@@ -19,8 +19,8 @@
    
     max-width: 300px;
     flex-direction: row;
-    border: black solid 2%;
-    border-radius: 2%;
+    border: black solid 3px;
+   
     font-size: 30px;
     color: white;
  }
