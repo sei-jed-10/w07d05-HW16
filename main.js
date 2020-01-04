@@ -30,7 +30,7 @@ $(document).ready(function(){
         var species = document.createElement("p");
          
         photo.setAttribute("src", data.image);
-        photo.setAttribute("width", "300px");
+        photo.setAttribute("width", "290px");
         photo.setAttribute("height", "228");
          state.setAttribute("background-color" ,"rgba(0,0,255,0.3)")
         div.setAttribute("max-width", "300px");
