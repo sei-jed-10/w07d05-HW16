@@ -1,0 +1,26 @@
+ body{
+    background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+    text-align: center;
+ }
+#charPhoto{
+   margin: auto;
+    width:100%;
+    max-width: 940px;
+    display: flex;
+   flex-wrap: wrap;  
+     
+   
+
+}
+ 
+ 
+ .myclass{
+
+   
+    max-width: 300px;
+    flex-direction: row;
+    border: black solid 2%;
+    border-radius: 2%;
+    font-size: 30px;
+    color: white;
+ }

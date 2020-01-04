@@ -5,14 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
     <title>API Practice</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 </head>
 
 <body>
-    <div class="container"></div>
-    <button id="random">Get Info</button>
+    <div class=".container">
+    <header>
+        
+
+        <h1>Rick and Morty</h1>
+    </header>
+    <div style="height: 35px;"></div>
+    
+ 
+
+        <form id="query-form" onsubmit="getPhoto(query)" class="form-group">
+
+            <label for="query">Enter Character  Id(0-493)</label>
+            <input  name="query" type="text" required> 
+            <input type="submit"  id="button" class="btn btn-primary btn-block" value="Generete">
+         
+        </form> <br />
+        
+         <div id='charPhoto'> </div>
+
+        
+        
+
+        
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="main.js"></script>
+</div>
 </body>
 
 </html>
