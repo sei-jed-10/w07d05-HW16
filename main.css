@@ -1,0 +1,41 @@
+.info{
+    background-color:gray;
+    border-radius: 7px;
+    }
+    
+    .container {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 1%;
+    background-color:white;
+    
+    }
+    
+    #title0,#title1,#title2,#title3,#title4{
+    color:black;
+    text-align: center;
+    font-style:oblique ;
+    font-size: 23px;
+    font-weight: bold;
+    }
+    .informbutton{
+    padding-top: 2%;
+    text-align: center;
+    
+    }
+    #random{
+    background-color: pink;
+    font-style: oblique;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 7px;
+    }
+    h1{
+    text-align: center;
+    font-style:oblique ;
+    background-color: pink;
+    border-radius: 20px;
+    }
+    
+    
