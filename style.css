@@ -1,0 +1,23 @@
+  ul{
+    white-space: nowrap;
+  }
+
+  ul, li{
+    list-style: none;
+    display: inline;
+    float: left;
+  }
+
+  .title{
+    font-weight: bold;
+    padding-top: 15px;
+  }
+
+  .content {
+    max-width: 900px;
+    max-height: 800px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+  }
+  
