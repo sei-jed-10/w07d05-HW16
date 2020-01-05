@@ -1,0 +1,39 @@
+.container{  
+
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+ 
+
+}
+
+
+ .image {
+    display: flex;
+    flex-direction: column;
+ width:250px;
+ height:259px;
+ background-color: antiquewhite;
+flex-direction: column;
+  margin: 10px;
+}    
+
+.name{
+    background-color: blue;
+    width:50%;
+    margin: 10px;
+    font-size: 20px;
+    height:20px;
+    }
+    .show{   
+        margin: 10px; 
+        display: flex;
+        flex-direction: column;
+
+
+        width:50%;
+  
+
+
+    }
