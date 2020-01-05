@@ -6,10 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>API Practice</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+        }
+
+        /* Clearfix (clear floats) */
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        /* .ok {
+            align-items: center;
+            color: tomato;
+        } */
+
+        .caption{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+        }
+    </style>
+
+
 </head>
 
 <body>
-    <div class="container"></div>
+    <div class="container" id="yes">
+
+        <!-- <h1 id="name"> <h1> -->
+
+
+    </div>
     <button id="random">Get Info</button>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="main.js"></script>
