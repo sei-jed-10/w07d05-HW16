@@ -2,15 +2,21 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
     <title>API Practice</title>
 </head>
 
 <body>
-    <div class="container"></div>
-    <button id="random">Get Info</button>
+    <h1>Rick & Morty Family</h1>
+    <div class="container">
+        <div class="c"><div id="title0"></div><div id="img0"></div></div>
+        <div class="c"><div id="title1"></div><div id="img1"></div></div>
+        <div class="c"><div id="title2"></div><div id="img2"></div></div>
+        <div class="c"><div id="title3"></div><div id="img3"></div></div>
+        <div class="c"><div id="title4"></div><div id="img4"></div></div>
+    </div>
+    <div class="b"><button id="random" onclick="display()">Get Info</button></div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="main.js"></script>
 </body>

@@ -1,0 +1,28 @@
+.c{
+    background-color: rgb(157, 203, 207);
+}
+.container {
+    display:flex;
+    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 7%;
+}
+
+#title0,#title1,#title2,#title3,#title4{
+    color: aquamarine;
+    text-align: center;
+    font-style: italic;
+    font-size: 23px;
+}
+.b{
+    padding-top: 2%;
+    text-align: center;
+}
+#random{
+    background-color: cadetblue;
+    border-radius: 25px;
+}
+h1{
+    text-align: center;
+}
